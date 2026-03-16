@@ -1,87 +1,221 @@
 
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Lorence S. Alvarado | IT Support Portfolio</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lorence Alvarado | IT Support Portfolio</title>
+
 <style>
-body {
-font-family: Arial;
+*{
 margin:0;
-background:#f5f5f5;
+padding:0;
+box-sizing:border-box;
+font-family: Arial, Helvetica, sans-serif;
 }
 
-header {
+body{
 background:#0f172a;
-color:white;
-padding:40px;
-text-align:center;
+color:#e5e7eb;
+line-height:1.6;
 }
 
-section {
-padding:40px;
-max-width:900px;
+.container{
+max-width:1100px;
 margin:auto;
-background:white;
-margin-top:20px;
-border-radius:8px;
-}
-
-h2 {
-border-bottom:2px solid #ddd;
-padding-bottom:5px;
-}
-
-ul {
-line-height:1.8;
-}
-
-.footer {
-text-align:center;
 padding:20px;
-font-size:14px;
-color:#666;
+}
+
+header{
+text-align:center;
+padding:60px 20px;
+}
+
+header h1{
+font-size:42px;
+margin-bottom:10px;
+}
+
+header p{
+color:#9ca3af;
+font-size:18px;
+}
+
+.btn{
+display:inline-block;
+margin-top:20px;
+padding:12px 24px;
+background:#22c55e;
+color:white;
+text-decoration:none;
+border-radius:6px;
+font-weight:bold;
+}
+
+section{
+margin-top:60px;
+}
+
+h2{
+margin-bottom:20px;
+font-size:28px;
+border-bottom:2px solid #1f2937;
+padding-bottom:8px;
+}
+
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+}
+
+.card{
+background:#111827;
+padding:20px;
+border-radius:10px;
+}
+
+.skills li{
+margin-bottom:10px;
+}
+
+.job{
+margin-bottom:20px;
+}
+
+footer{
+text-align:center;
+padding:40px 20px;
+margin-top:60px;
+border-top:1px solid #1f2937;
+color:#9ca3af;
+}
+
+@media(max-width:600px){
+header h1{
+font-size:32px;
+}
 }
 </style>
 </head>
 
 <body>
 
-<header>
+<header class="container">
 <h1>Lorence S. Alvarado</h1>
 <p>Technical Support Specialist | IT Helpdesk | Customer Support</p>
-<p>Morong, Rizal, Philippines | +63 976 354 0370 | alvaradolorence@gmail.com</p>
+<p>Morong, Rizal Philippines • +63 976 354 0370 • alvaradolorence@gmail.com</p>
+
+<a class="btn" href="#">Download Resume</a>
 </header>
 
+<div class="container">
+
 <section>
-<h2>Professional Summary</h2>
-<p>Experienced Technical Support and IT Helpdesk professional with 7+ years of experience in BPO and technology support environments. Skilled in hardware and software troubleshooting, remote technical assistance, system setup, and customer service. Proven ability to diagnose technical issues, guide users through solutions, and maintain high customer satisfaction. Seeking remote or international opportunities in IT Helpdesk, Technical Support, or Service Desk roles.</p>
+<h2>About Me</h2>
+<p>
+Experienced Technical Support and IT Helpdesk professional with more than 7 years
+of experience in customer service and technical troubleshooting. Skilled in
+hardware and software diagnostics, remote support, system configuration, and
+customer issue resolution. Seeking remote or international IT support roles
+where I can help businesses maintain reliable systems and provide excellent
+technical service.
+</p>
 </section>
 
 <section>
 <h2>Technical Skills</h2>
-<ul>
-<li>Hardware & Software Troubleshooting</li><li>IT Helpdesk Support</li><li>Remote Desktop Support</li><li>Windows OS Troubleshooting</li><li>Internet & Network Setup</li><li>Computer Installation & Configuration</li><li>Customer Technical Support</li><li>Microsoft Office (Word, Excel, PowerPoint)</li><li>Ticketing Systems & Documentation</li><li>Problem Solving & Technical Diagnostics</li>
+
+<div class="grid">
+
+<div class="card">
+<ul class="skills">
+<li>Hardware Troubleshooting</li>
+<li>Software Installation</li>
+<li>Windows OS Support</li>
+<li>Remote Desktop Support</li>
 </ul>
+</div>
+
+<div class="card">
+<ul class="skills">
+<li>Network & Internet Setup</li>
+<li>Computer Configuration</li>
+<li>Technical Diagnostics</li>
+<li>System Maintenance</li>
+</ul>
+</div>
+
+<div class="card">
+<ul class="skills">
+<li>Customer Technical Support</li>
+<li>Ticketing Systems</li>
+<li>Documentation</li>
+<li>Microsoft Office</li>
+</ul>
+</div>
+
+</div>
 </section>
 
 <section>
 <h2>Professional Experience</h2>
-<ul>
-<li><b>Technical Support Specialist</b> - Bask Technology (Zen Support Force Inc.) (Feb 2025 – Aug 2025)</li><li><b>Customer Service Representative III</b> - eBay – TTEC (Jul 2024 – Jan 2025)</li><li><b>Customer Service Representative</b> - Duke Energy – TSI Philippines Inc. (Apr 2024 – Jul 2024)</li><li><b>Customer Service / Technical Support Representative</b> - Comcast – ResultsCX (Mar 2023 – Sep 2023)</li><li><b>Customer Service Representative</b> - Altima Canada – Global Outsourcing Solutions (AGOS) (May 2019 – Dec 2022)</li><li><b>Technical Support Representative</b> - Samsung HE – Transcom Philippines (Nov 2018 – Apr 2019)</li><li><b>Technical Support Representative</b> - Lexmark (Feb 2018 – Nov 2018)</li><li><b>Sales Associate I</b> - Convergys Philippines Inc. (Jul 2017 – Feb 2018)</li><li><b>Data Encoder</b> - FJS Computer Services (Feb 2012 – Jun 2017)</li>
-</ul>
+
+<div class="job">
+<strong>Technical Support Specialist</strong><br>
+Bask Technology (Zen Support Force Inc.)<br>
+Feb 2025 – Aug 2025
+</div>
+
+<div class="job">
+<strong>Customer Service Representative III</strong><br>
+eBay – TTEC<br>
+Jul 2024 – Jan 2025
+</div>
+
+<div class="job">
+<strong>Customer Service / Technical Support Representative</strong><br>
+Comcast – ResultsCX<br>
+Mar 2023 – Sep 2023
+</div>
+
+<div class="job">
+<strong>Customer Service Representative</strong><br>
+Altima Canada – Global Outsourcing Solutions<br>
+May 2019 – Dec 2022
+</div>
+
+<div class="job">
+<strong>Technical Support Representative</strong><br>
+Samsung HE – Transcom Philippines<br>
+Nov 2018 – Apr 2019
+</div>
+
 </section>
 
 <section>
 <h2>Education</h2>
-<ul>
-<li><b>University of Rizal System – Binangonan, Rizal</b> - Undergraduate Studies (2007 – 2011)</li><li><b>Morong National High School – Morong, Rizal</b> - Secondary Education (2003 – 2007)</li>
-</ul>
+
+<p><strong>University of Rizal System</strong><br>
+Undergraduate Studies (2007 – 2011)</p>
+
+<p><strong>Morong National High School</strong><br>
+2003 – 2007</p>
+
 </section>
 
-<div class="footer">
-© Lorence S. Alvarado – IT Support Portfolio
+<section>
+<h2>Contact</h2>
+<p>Email: alvaradolorence@gmail.com</p>
+<p>Phone: +63 976 354 0370</p>
+<p>Location: Morong, Rizal Philippines</p>
+</section>
+
 </div>
+
+<footer>
+© 2026 Lorence Alvarado • IT Support Portfolio
+</footer>
 
 </body>
 </html>
